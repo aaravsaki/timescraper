@@ -1,7 +1,6 @@
 from fastapi import FastAPI
 import queries
 
-
 app = FastAPI()
 
 @app.get("/")
